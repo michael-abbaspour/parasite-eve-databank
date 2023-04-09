@@ -1,0 +1,18 @@
+{
+  "normal": [
+	{
+	  "armorId": 1,
+	  "name": "N Vest",
+	  "baseDefensePower": 9,
+	  "plusDefensePower": 1,
+	  "basePeDefensePower": 8,
+	  "plusPeDefensePower": 0,
+	  "criticalEvasionRate": 13,
+	  "plusCriticalEvasionRate": 0,
+	  "slots": 2,
+	  "maxSlots": 2,
+	  "special": "",
+	  "location": "Aya's Initial Armor."
+	}
+  ]
+}

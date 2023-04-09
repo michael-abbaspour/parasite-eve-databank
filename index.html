@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Parasite Eve Databank</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<script src="dist/index.js" type="module"></script>
+</head>
+<body>
+	<header class="primary-header ">
+		<div class="container flex-column-center">
+			<h1>Parasite Eve Databank</h1>
+			<nav>
+				<ul id="primary-navigation" class="primary-navigation no-bullets">
+					<li><button type="button" id="characters-btn" class="nav-button">Characters</button></li>
+					<li><button type="button" id="parasite-energy-btn" class="nav-button">Parasite Energy</button></li>
+					<li><button type="button" id="weapons-btn" class="nav-button">Weapons</button></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="primary-main">
+		<div class="container">
+			<section id="characters" class="active">
+				<h2 class="margin-bottom-1-2">Characters</h2>
+			</section>
+			<section id="parasite-energy" class="hidden">
+				<h2 class="margin-bottom-1-2">Parasite Energy</h2>
+				<div class="grid-card-container"></div>
+			</section>
+			<section id="weapons" class="hidden">
+				<h2 class="margin-bottom-1-2">Weapons</h2>
+			</section>
+		</div>
+	</main>
+	<footer>
+	</footer>
+</body>
+</html>

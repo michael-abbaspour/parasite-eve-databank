@@ -1,0 +1,151 @@
+/**
+The base styling for the application.
+ */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+html:focus-within {
+	scroll-behavior: smooth;
+}
+
+body {
+	line-height: 1.5;
+	text-rendering: optimizeSpeed;
+}
+
+img,
+picture,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+/************
+* Sitewide
+**************/
+.primary-header > .container {
+	gap: 0.5rem;
+}
+
+.container {
+	--max-width: 1110px;
+	--padding: 1rem;
+
+	width: min(var(--max-width), 100% - var(--padding) * 2);
+	margin-inline: auto;
+}
+
+.primary-navigation {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.nav-button {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 0.95rem;
+	text-decoration: none;
+	color: hsl(0, 0%, 100%);
+	background-color: hsl(224, 30%, 27%);
+	padding: 0.25rem 1.25rem;
+	border: 0;
+	border-radius: 100vw;
+}
+
+.nav-button:hover {
+	background-color: hsl(300, 97%, 23%);
+}
+
+.list-item-box-item {
+	padding: 0.5rem;
+	border: 1px solid hsl(0, 0%, 87%);
+}
+
+.grid-card-container ul {
+	border: 1px solid hsl(0, 0%, 87%);
+}
+
+.grid-card-container ul li {
+	padding: 0.5rem;
+}
+
+.data-table {
+	display: block;
+	width: 100%;
+	max-width: 1050px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	margin: 0.5rem 0 1.5rem 0;
+}
+
+.data-table thead {
+	box-shadow: 0 5px 10px hsl(222, 28%, 91%);
+}
+
+.data-table th, td {
+	padding: 5px 10px;
+}
+
+.data-table th {
+	border: 1px solid hsl(0, 0%, 0%);
+	text-align: left;
+}
+
+.data-table td {
+	border: 1px solid hsl(0, 0%, 0%);
+}
+
+.data-table tbody tr td:nth-child(1) {
+	white-space: nowrap;
+}
+
+/************
+* Utilities
+**************/
+.no-bullets {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.flex-column-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.grid-card-container {
+	display: grid;
+	gap: 0.125rem;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.line-break-before::before {
+	content: "\a";
+	white-space: pre;
+}
+
+.line-break-after::after {
+	content: "\a";
+	white-space: pre;
+}
+
+.active {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+.margin-bottom-1-2 {
+	margin-bottom: 0.5rem;
+}

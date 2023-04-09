@@ -1,0 +1,84 @@
+{
+  "characters": [
+	{
+	  "characterId": 1,
+	  "firstName": "Aya",
+	  "lastName": "Brea",
+	  "age": 25,
+	  "occupation": "N.Y.P.D Officer",
+	  "description": "The main and only playable character in the game. You control Aya to help stop a mysterious, and powerful force."
+	},
+	{
+	  "characterId": 2,
+	  "firstName": "Maya",
+	  "lastName": "Brea",
+	  "age": "Unknown",
+	  "occupation": "None",
+	  "description": "Aya's younger sister who died 20 years prior to the game. Is somehow seen consistently by Aya throughout the game."
+	},
+	{
+	  "characterId": 3,
+	  "firstName": "Daniel",
+	  "lastName": "Dollis",
+	  "age": 42,
+	  "occupation": "N.Y.P.D Officer",
+	  "description": "Aya's partner in the police force and father to Ben. Aids Aya throughout the game."
+	},
+	{
+	  "characterId": 4,
+	  "firstName": "Melissa",
+	  "lastName": "Pearce",
+	  "age": 32,
+	  "occupation": "Actress/Opera Singer",
+	  "description": "An ambitious woman who ended up becoming the second Mitochondria Eve"
+	},
+	{
+	  "characterId": 5,
+	  "firstName": "Aya's Date",
+	  "lastName": "",
+	  "age": "Unknown",
+	  "occupation": "Unknown",
+	  "description": "Aya's date when she was attending Carnegie Hall."
+	},
+	{
+	  "characterId": 6,
+	  "firstName": "Lorraine",
+	  "lastName": "Dollis",
+	  "age": "Unknown",
+	  "occupation": "Unknown",
+	  "description": "Mother to Ben Dollis and Daniel Dollis's ex wife. She ends up being killed by Mitochondria Eve during the concert at Central Park."
+	},
+	{
+	  "characterId": 7,
+	  "firstName": "Ben",
+	  "lastName": "Dollis",
+	  "age": 8,
+	  "occupation": "Student",
+	  "description": "Daniel and Lorraine Dollis's son."
+	},
+	{
+	  "characterId": 8,
+	  "firstName": "Douglas",
+	  "lastName": "Baker",
+	  "age": 41,
+	  "occupation": "Chief of N.Y.P.D",
+	  "description": "Head of the homicide department for the N.Y.P.D. Douglas began as a police officer at the same time as Daniel."
+	},
+	{
+	  "characterId": 9,
+	  "firstName": "Wayne",
+	  "lastName": "Garcia",
+	  "age": 27,
+	  "occupation": "N.Y.P.D Officer",
+	  "description": "Wayne is a part of the N.Y.P.D weapons department alongside Torres Owens. He ends up taking over the department after Torres's death."
+	},
+	{
+	  "characterId": 10,
+	  "firstName": "Torres",
+	  "lastName": "Owens",
+	  "age": 48,
+	  "occupation": "N.Y.P.D Officer",
+	  "description": "Torres is the head of the weapons department and helps mod Aya's weapons. When the precinct is attacked by Eve, Torres loses his life."
+	}
+  ]
+}

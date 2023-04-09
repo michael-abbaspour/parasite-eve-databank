@@ -1,0 +1,109 @@
+{
+  "abilities": [
+	{
+	  "parasiteEnergyId": 1,
+	  "name": "Heal 1",
+	  "levelLearned": "N/A",
+	  "peCost": 60,
+	  "effect": "Heals Aya for 30 HP."
+	},
+	{
+	  "parasiteEnergyId": 2,
+	  "name": "Scan",
+	  "levelLearned": 4,
+	  "peCost": 50,
+	  "effect": "Reveals the enemy's health and weaknesses."
+	},
+	{
+	  "parasiteEnergyId": 3,
+	  "name": "Slow",
+	  "levelLearned": 7,
+	  "peCost": 90,
+	  "effect": "Slows enemy movement and AT charge."
+	},
+	{
+	  "parasiteEnergyId": 4,
+	  "name": "Detox",
+	  "levelLearned": 9,
+	  "peCost": 100,
+	  "effect": "Cures poison."
+	},
+	{
+	  "parasiteEnergyId": 5,
+	  "name": "Heal 2",
+	  "levelLearned": 11,
+	  "peCost": 120,
+	  "effect": "Heals Aya for 60 HP."
+	},
+	{
+	  "parasiteEnergyId": 6,
+	  "name": "Barrier",
+	  "levelLearned": 13,
+	  "peCost": "33% of Max PE Bar",
+	  "effect": "Enemy attacks on Aya reduce her PE, rather than her HP until her PE runs out."
+	},
+	{
+	  "parasiteEnergyId": 7,
+	  "name": "Energy Shot",
+	  "levelLearned": 15,
+	  "peCost": "All Remaining PE",
+	  "effect": "Aya focuses her power and shoots a large blast at an enemy."
+	},
+	{
+	  "parasiteEnergyId": 8,
+	  "name": "Confuse",
+	  "levelLearned": 17,
+	  "peCost": 150,
+	  "effect": "Confuses the enemy, preventing them from attacking."
+	},
+	{
+	  "parasiteEnergyId": 9,
+	  "name": "Haste",
+	  "levelLearned": 20,
+	  "peCost": 200,
+	  "effect": "Increases Aya's movement speed and and fills the AT bar faster. Also removes Stiffness-based status effects from Aya."
+	},
+	{
+	  "parasiteEnergyId": 10,
+	  "name": "Heal 3",
+	  "levelLearned": 22,
+	  "peCost": 500,
+	  "effect": "Heals Aya for 280 HP."
+	},
+	{
+	  "parasiteEnergyId": 11,
+	  "name": "Gene Heal",
+	  "levelLearned": 25,
+	  "peCost": 400,
+	  "effect": "Steadily heals Aya's HP over time. Her PE also slowly decreases as long as Gene Heal is in effect."
+	},
+	{
+	  "parasiteEnergyId": 12,
+	  "name": "Medic",
+	  "levelLearned": 28,
+	  "peCost": 600,
+	  "effect": "Removes all negative status effects from Aya."
+	},
+	{
+	  "parasiteEnergyId": 13,
+	  "name": "Preraise",
+	  "levelLearned": 30,
+	  "peCost": 1000,
+	  "effect": "Immediately revives Aya when her HP reaches 0."
+	},
+	{
+	  "parasiteEnergyId": 14,
+	  "name": "Full Recover",
+	  "levelLearned": 32,
+	  "peCost": 1300,
+	  "effect": "Restores all HP and removes all negative status effects."
+	},
+	{
+	  "parasiteEnergyId": 15,
+	  "name": "Liberate",
+	  "levelLearned": 33,
+	  "peCost": "All",
+	  "effect": "Aya's most powerful attack. Hits the enemy for massive damage. Leaves her in a dizzied state and defenseless after usage."
+	}
+  ]
+}

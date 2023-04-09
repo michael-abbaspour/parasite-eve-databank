@@ -1,0 +1,21 @@
+{
+  "name": "parasite-eve-databank",
+  "description": "Documentation used for the video game Parasite Eve.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "type": "module",
+  "author": {
+    "name": "Michael Abbaspour"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "typescript": "^5.0.3"
+  }
+}
